@@ -1,0 +1,23 @@
+.news__inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5em;
+
+}
+
+.news h2{
+    font-size: 3em;
+    margin-left: 0.1em;
+
+}
+
+.news a{
+    text-align: left;
+    transition: color 0.5s ease; 
+}
+.news a:hover{
+    color: rgb(54, 54, 54);
+    transition: color 0.5s ease; 
+}

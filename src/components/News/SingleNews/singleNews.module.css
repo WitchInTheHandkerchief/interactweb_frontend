@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.news{
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 20vw;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1em;
+    line-height: 1.1em;
+    margin-bottom: 3em;
+}
+
+.news img{
+    width: 20vw;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.news p {
+    margin: 5px 0 0;
+}
