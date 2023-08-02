@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500&family=Ubuntu:wght@700&display=swap');
+
+.singleNews{
+    border: 5px solid rgba(168, 242, 255, 0.1);
+    border-radius: 2em;
+    padding: 2em;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+}
+
+.singleNews__inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3em;
+}
+
+.text{
+    width: 80%;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
+}
+
+.image{
+    height: 12em;
+    border-radius: 1em;
+}
+
+h2{
+    margin: 0;
+}

@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
 import classes from './singleNews.module.css';
 
-const SingleNews = ({image, date, text, id}) =>{
+export const SingleNews = ({image, date, title, id}) =>{
     return(
-        <Link to={'/news/' + id} className={classes.news}>
+        <Link to={'/news/'} className={classes.news}>
             <img src={image} alt="" />
             <p>{date}</p>
-            <p>{text}</p>
+            <p>{title}</p>
         </Link>
     );
 }
 
-export default SingleNews;
