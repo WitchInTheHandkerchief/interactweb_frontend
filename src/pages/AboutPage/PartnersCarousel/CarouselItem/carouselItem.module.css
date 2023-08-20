@@ -1,0 +1,17 @@
+.carouselItem{
+    width: 400px;
+   -webkit-text-fill-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.carouselItem p{
+    width: 100%;
+}
+
+.carouselItem img{
+    height: 180px;
+    border-radius: 12px;
+}

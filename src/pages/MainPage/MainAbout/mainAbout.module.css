@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Raleway:wght@700&display=swap');
+
+.about{
+    width: 100%;
+    background: rgb(11, 39, 143);
+    background: linear-gradient(90deg, rgba(48,73,163,1) 0%, rgba(62,92,199,1) 50%, rgba(36,165,220,1) 100%);
+    padding: 0;
+    color: white;
+    padding-bottom: 2em;
+}
+
+.about__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top h1{
+    margin: 0;
+    font-size: 5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.left{
+    font-size: 1.6em;
+    font-family: 'Lora', serif;
+}
+
+.right{
+    margin: 0;
+}
+
+.right img{
+    height: 45vh;
+    margin-bottom: 2em;
+}
