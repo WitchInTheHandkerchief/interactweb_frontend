@@ -2,16 +2,16 @@ import React, { useState, useEffect } from 'react';
 import s from './activity.css'
 const ActivityPage = (props) => {
     const [currentNumber, setCurrentNumber] = useState(0);
-    const [currentNumber2, setCurrentNumber1] = useState(3254666);
+    const [currentNumber2, setCurrentNumber1] = useState(1455600);
   useEffect(() => {
     const interval = setInterval(() => {
       if (currentNumber < 425) {
         setCurrentNumber(currentNumber + 1);
       }
-      if ( currentNumber2 < 3255122 ) {
+      if ( currentNumber2 < 1456000 ) {
         setCurrentNumber1(currentNumber2 + 1);
       }
-    }, 10); // Интервал в миллисекундах между обновлениями числа
+    }, 19); // Интервал в миллисекундах между обновлениями числа
 
     return () => {
       clearInterval(interval);
