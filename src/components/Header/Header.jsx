@@ -18,7 +18,7 @@ const Header = () => {
                     <div className={classes.stripe}></div>
                     <Link className={classes.link} to='/activity'>деятельность</Link>
                     <div className={classes.stripe}></div>
-                    <li>сотрудничество</li>
+                    <Link className={classes.link} to='/cooperation'>сотрудничество</Link> 
                     <div className={classes.stripe}></div>
                     <Link className={classes.link} to='/about'>о нас</Link>
                     <div className={classes.stripe}></div>

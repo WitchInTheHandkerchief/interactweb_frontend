@@ -1,8 +1,23 @@
-import React from "react";
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
+import React, { useState, useEffect } from 'react';
 import s from './activity.css'
 const ActivityPage = (props) => {
+    const [currentNumber, setCurrentNumber] = useState(0);
+    const [currentNumber2, setCurrentNumber1] = useState(1455600);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (currentNumber < 425) {
+        setCurrentNumber(currentNumber + 1);
+      }
+      if ( currentNumber2 < 1456000 ) {
+        setCurrentNumber1(currentNumber2 + 1);
+      }
+    }, 19); // Интервал в миллисекундах между обновлениями числа
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [currentNumber, currentNumber2]);
+    
    
     return (
         <>
@@ -30,18 +45,21 @@ const ActivityPage = (props) => {
         </div>
         <div className="block-2">
             <div className="count">
-                <div className="title__count">425</div>
+                <div id="out01" className="title__count">{currentNumber}</div>
                 <div className="member">Волонтеров</div>
             </div>
             <div className="count">
-            <div className="title__count">3255122</div>
+            <div className="title__count">{currentNumber2}</div>
                 <div className="bill">Собрано средств в 2023г.</div>
             </div>
         </div>
         <div className="block-3">
-            <div className="title__team">
-            Наши команды:
+            <div className="block-3__main">
+                <div className="title__nap">
+                Наши команды:
+                </div>
             </div>
+            
         </div>
        </div>
            
