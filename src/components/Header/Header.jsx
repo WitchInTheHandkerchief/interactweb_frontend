@@ -5,14 +5,14 @@ const Header = () => {
     return(
         <div className={classes.header}>
             <div className={classes.header_top}>
-                <img className = {classes.logo} src="src\assets\logo.png" alt="" />
+                <img className = {classes.logo} src="/logo.png" alt="" />
                 <div className={classes.language}>
                     Русский | English
                 </div>
             </div>
             <div className={classes.header_bottom}>
                 <ul className={classes.nav}>
-                    <Link className={classes.link} to='/'><img src="src\assets\home.png" alt="" /></Link>
+                    <Link className={classes.link} to='/'><img src="/home.png" alt="" /></Link>
                     <div className={classes.stripe}></div>
                     <Link className={classes.link} to='/news'>новости</Link>
                     <div className={classes.stripe}></div>

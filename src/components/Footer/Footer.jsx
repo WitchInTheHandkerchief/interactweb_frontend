@@ -31,9 +31,9 @@ const Footer = () =>{
                     </div>
                 </div>
                 <div className={classes.socials}>
-                    <a href="https://www.instagram.com/interactbishkek/"><img src="src\components\Footer\assets\instagram.png" alt="" /></a>
-                    <a href="https://www.tiktok.com/@interact.bishkek"><img src="src\components\Footer\assets\tiktok.png" alt="" /></a>
-                    <a href="#"><img src="src\components\Footer\assets\whatsapp.png" alt="" /></a>
+                    <a href="https://www.instagram.com/interactbishkek/"><img src="/instagram.png" alt="" /></a>
+                    <a href="https://www.tiktok.com/@interact.bishkek"><img src="/tiktok.png" alt="" /></a>
+                    <a href="#"><img src="/whatsapp.png" alt="" /></a>
                 </div>
             </div>
         </div>

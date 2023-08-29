@@ -1,0 +1,21 @@
+.SingleNewsPage{
+    margin: 2em 0;
+}
+
+.header{
+    font-size: 3em;
+}
+
+.date{
+    color: gray;
+    margin-top: -1em;
+}
+
+.image{
+    max-height: 600px;
+}
+
+.text{
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
