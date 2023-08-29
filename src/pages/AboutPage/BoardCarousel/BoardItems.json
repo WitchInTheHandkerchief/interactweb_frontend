@@ -1,0 +1,55 @@
+[
+    [
+        {
+            "id":1,
+            "image":"https://static.tildacdn.com/tild3730-3533-4336-b962-376361316133/W-103.jpg",
+            "fullName":"Arbuz",
+            "role": "СММ Менеджер"
+        },
+        {
+            "id":2,
+            "image":"https://static.tildacdn.com/tild3730-3533-4336-b962-376361316133/W-103.jpg",
+            "fullName":"Arbuz",
+            "role": "СММ Менеджер"
+        },
+        {
+            "id":3,
+            "image":"https://static.tildacdn.com/tild3730-3533-4336-b962-376361316133/W-103.jpg",
+            "fullName":"Arbuz",
+            "role": "СММ Менеджер"
+        },
+        {
+            "id":4,
+            "image":"https://static.tildacdn.com/tild3730-3533-4336-b962-376361316133/W-103.jpg",
+            "fullName":"Arbuz",
+            "role": "СММ Менеджер"
+        },
+        {
+            "id":5,
+            "image":"https://static.tildacdn.com/tild3730-3533-4336-b962-376361316133/W-103.jpg",
+            "fullName":"Arbuz",
+            "role": "СММ Менеджер"
+        }   
+    ],
+    [
+        {
+            "id": 6,
+            "image":"https://static.tildacdn.com/tild3730-3533-4336-b962-376361316133/W-103.jpg",
+            "fullName":"Arbuz",
+            "role": "СММ Менеджер"
+        },
+        {
+            "id": 7,
+            "image":"https://static.tildacdn.com/tild3730-3533-4336-b962-376361316133/W-103.jpg",
+            "fullName":"Arbuz",
+            "role": "СММ Менеджер"
+        },
+        {
+            "id": 8,
+            "image":"https://static.tildacdn.com/tild3730-3533-4336-b962-376361316133/W-103.jpg",
+            "fullName":"Arbuz",
+            "role": "СММ Менеджер"
+        } 
+    ]
+
+]

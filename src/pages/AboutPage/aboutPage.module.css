@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Raleway:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 .about{
     width: 100%;
-    background: rgb(48,73,163);
-    background: linear-gradient(90deg, rgba(48,73,163,1) 0%, rgba(62,92,199,1) 50%, rgba(36,165,220,1) 100%);
-    padding: 0;
+    background: rgb(17, 47, 81);
+    padding: 3em 0;
     color: white;
     padding-bottom: 2em;
+    position: relative;
 }
 
 .about__inner{
@@ -21,16 +21,70 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.name{
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 1em 0 -1em;
+}
+
 .left{
-    font-size: 1.6em;
-    font-family: 'Lora', serif;
-}
-
-.right{
-    margin: 0;
-}
-
-.right img{
-    height: 45vh;
+    font-size: 1.8em;
+    font-family: 'Raleway', sans-serif;
     margin-bottom: 2em;
+    font-weight: 300;
+    margin-right: 5em;
+}
+
+.background__logo{
+    position: absolute;
+    top: 20%;
+    left: -20vh;
+}
+
+.background__logo img{
+    height: 40vh;
+    opacity: 0.8;
+}
+
+.board__carousel__inner {
+    font-family: 'Forum', cursive;
+    font-size: 2.6em;
+    font-weight: 200;
+    text-align: center;
+    background: -webkit-linear-gradient(rgba(13,87,174, 0.72), rgba(135,141,197, 0.86));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.board__carousel__inner h1{
+    margin: 0.3em 0 0;
+}
+
+.board{
+    background-color: rgb(60, 72, 182);
+    padding-bottom: 2em;
+}
+
+.board h1{
+    padding: 0.5em 0;
+    margin-bottom: -0.2em;
+    font-size: 6em;
+    color: white;
+    text-shadow: rgb(39, 39, 39) 0 2px 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.board p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8em;
+    color: white;
+    font-weight: 300;
+    width: 90%;
+}
+
+.partners__inner{
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    margin: 5em 0;
 }

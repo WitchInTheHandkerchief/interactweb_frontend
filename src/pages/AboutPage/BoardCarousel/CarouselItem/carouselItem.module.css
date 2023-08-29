@@ -1,0 +1,16 @@
+.carouselItem{
+    width: 200px;
+   -webkit-text-fill-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carouselItem p{
+    width: 100%;
+}
+
+.carouselItem img{
+    width: 180px;
+    border-radius: 12px;
+}
