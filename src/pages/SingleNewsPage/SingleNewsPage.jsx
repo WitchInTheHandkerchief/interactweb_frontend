@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import classes from './singleNewsPage.module.css';
 import { useParams } from 'react-router-dom';
-import news from '../../news.json';
+
 
 const SingleNewsPage = () => {
   const { id } = useParams();
@@ -11,7 +11,7 @@ const SingleNewsPage = () => {
 //   useEffect(() => {
 //     const fetchNews = async () => {
 //       try {
-//         const response = await fetch(`/api/news/${id}`);
+//         const response = await fetch(`http://127.0.0.1:8000/api/v1/news/${id}`);
 //         const newsData = await response.json();
 //         setCurrentNews(newsData);
 //       } catch (error) {

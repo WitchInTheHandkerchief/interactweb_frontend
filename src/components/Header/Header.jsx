@@ -24,7 +24,7 @@ const Header = () => {
                     <div className={classes.stripe}></div>
                     <Link className={classes.link} to='/contacts'>контакты</Link>
                     <div className={classes.stripe}></div>
-                    <li>помощь</li>
+                    <Link className={classes.link} to='/help'>помощь</Link>
                 </ul>
             </div>
         </div>

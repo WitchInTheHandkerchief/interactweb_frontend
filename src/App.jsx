@@ -8,6 +8,7 @@ import NewsPage from "./pages/NewsPage/NewsPage";
 import SingleNewsPage from "./pages/SingleNewsPage/SingleNewsPage";
 import ActivityPage from "./pages/activityPage/Activity";
 import CooperationPage from "./pages/CooperationPage/Cooperation";
+import HelpPage from "./pages/HelpPage/HelpPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/news/:id" element={<SingleNewsPage/>} />
           <Route path="/activity" element={<ActivityPage/>} />
           <Route path="/cooperation" element={<CooperationPage />} />
+          <Route path="/help" element={<HelpPage />} />
           <Route
               path="*"
               element={

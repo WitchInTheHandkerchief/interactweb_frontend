@@ -1,16 +1,15 @@
 import Carousel from 'react-elastic-carousel';
 import classes from './mainCarousel.module.css';
-
 const items = [
-  { id: 1, backgroundColor: '#ff6961' },
-  { id: 2, backgroundColor: '#77dd77' },
-  { id: 3, backgroundColor: '#aec6cf' },
-  { id: 4, backgroundColor: '#f49ac2' },
-  { id: 5, backgroundColor: '#ffd700' },
+  { id: 1, backgroundImg: '/interact1.png' },
+  { id: 2, backgroundImg: '/interact1.png' },
+  { id: 3, backgroundImg: '/interact1.png' },
+  { id: 4, backgroundImg: '/interact1.png' },
+  { id: 5, backgroundImg: '/interact1.png' },
 ];
 
-const CarouselItem = ({ backgroundColor }) => {
-    return <div className={classes.carouselItem} style={{ backgroundColor }} />;
+const CarouselItem = ({ backgroundImage }) => {
+  return <div className={classes.carouselItem} style={{ backgroundImage: `url(${backgroundImage})` }} />;
 };
 
 const MainCarousel = () =>{
@@ -18,7 +17,7 @@ const MainCarousel = () =>{
     <div className={classes.mainCarousel}>
       <Carousel itemsToShow={1}>
         {items.map((item) => 
-          <CarouselItem key={item.id} backgroundColor={item.backgroundColor} />
+          <CarouselItem key={item.id} backgroundImage={item.backgroundImg} />
         )}
       </Carousel>  
     </div>
